@@ -1,0 +1,12 @@
+{
+  "zotero": {
+    "command": "cmd",
+    "args": ["/c", "npx", "-y", "@oscardvs/zoteus"],
+    "env": {
+      "ZOTERO_API_KEY": "<your-api-key>",
+      "ZOTERO_LIBRARY_ID": "<your-user-id>",
+      "ZOTERO_LIBRARY_TYPE": "user",
+      "ZOTERO_DATA_DIR": "<path-to-zotero-data>"
+    }
+  }
+}
